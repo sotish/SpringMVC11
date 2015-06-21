@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html> <!--xmlns:th="http://www.thymeleaf.org">-->
+	<head>
+		<title>Thymeleaf tutorial: exercise 2</title>
+		<!--<link rel="stylesheet" href="../../../css/main-static.css" th:href="@{/css/main.css}" />-->
+		<meta charset="utf-8" />
+	</head>
+	<body>
+
+		<h1>Thymeleaf tutorial - User Info</h1>
+		<h2>User information</h2>
+
+		<dl>
+			<dt>
+				User name
+			</dt>
+
+			<dd>
+				Ramesh
+			</dd>
+
+			<dt>
+				Last Name
+			</dt>
+			<dd>
+				Singh
+			</dd>
+
+			<dt>
+				Age
+			</dt>
+			<dd>
+				13
+			</dd>
+
+		</dl>
+
+		<input type="text" name="fname" value="" id="firstName"/>
+		<input type="text" name="lname" value="" id="lastName"/>
+
+<label for="submit">submit</label><input type="submit" name="submit" value="submit" id="submit"/>
+
+  <span th:text="${name}"> </span>
+
+	</body>
+
+</html>
