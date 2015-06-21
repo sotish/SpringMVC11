@@ -51,7 +51,7 @@ public class SpringMvc10Application extends SpringBootServletInitializer {
 
 		DriverManagerDataSource dbs = new DriverManagerDataSource();
 
-		dbs.setDriverClassName("jdbc.driverClassName");
+		dbs.setDriverClassName("com.mysql.jdbc.Driver");
 		dbs.setUrl("jdbc:mysql://localhost:3306/student");
 		dbs.setUsername("root");
 		dbs.setPassword("root");
